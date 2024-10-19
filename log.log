@@ -1,0 +1,54 @@
+15:37:07  INFO 4400 --- [main] net.torosamy.main.MainApplication        : Starting MainApplication using Java 18.0.1.1 with PID 4400 (E:\project\torosamy-login-backend\main-service\target\classes started by ASUS in E:\project\torosamy-login-backend)
+15:37:07  INFO 4400 --- [main] net.torosamy.main.MainApplication        : The following 1 profile is active: "dev"
+15:37:07  INFO 4400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:37:07  INFO 4400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:37:07  INFO 4400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+15:37:08  INFO 4400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11699 (http)
+15:37:08  INFO 4400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:37:08  INFO 4400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+15:37:08  INFO 4400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:37:08  INFO 4400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+15:37:08  WARN 4400 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+15:37:09  INFO 4400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11699 (http) with context path ''
+15:37:09  INFO 4400 --- [main] net.torosamy.main.MainApplication        : Started MainApplication in 2.382 seconds (process running for 2.924)
+15:37:09  INFO 4400 --- [main] net.torosamy.main.MainApplication        : MainApplication started
+15:37:57  INFO 4400 --- [http-nio-11699-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:57  INFO 4400 --- [http-nio-11699-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:37:57  INFO 4400 --- [http-nio-11699-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+15:37:57  INFO 4400 --- [http-nio-11699-exec-2] n.t.main.controller.CaptchaController    : try to get captcha img
+16:49:18  INFO 20412 --- [main] net.torosamy.main.MainApplication        : Starting MainApplication using Java 18.0.1.1 with PID 20412 (E:\project\torosamy-login-backend\main-service\target\classes started by ASUS in E:\project\torosamy-login-backend)
+16:49:18  INFO 20412 --- [main] net.torosamy.main.MainApplication        : The following 1 profile is active: "dev"
+16:49:19  INFO 20412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:49:19  INFO 20412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:49:19  INFO 20412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+16:49:19  INFO 20412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11699 (http)
+16:49:19  INFO 20412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:49:19  INFO 20412 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+16:49:19  INFO 20412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:49:19  INFO 20412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+16:49:20  INFO 20412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11699 (http) with context path ''
+16:49:20  INFO 20412 --- [main] net.torosamy.main.MainApplication        : Started MainApplication in 2.105 seconds (process running for 2.872)
+16:49:20  INFO 20412 --- [main] net.torosamy.main.MainApplication        : MainApplication started
+16:49:29  INFO 20412 --- [http-nio-11699-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:49:29  INFO 20412 --- [http-nio-11699-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:49:29  INFO 20412 --- [http-nio-11699-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+16:49:29  INFO 20412 --- [http-nio-11699-exec-1] n.t.main.controller.CaptchaController    : try to get captcha img
+16:49:34  INFO 20412 --- [http-nio-11699-exec-8] n.t.main.controller.CaptchaController    : try to get captcha img
+16:49:47  INFO 20412 --- [http-nio-11699-exec-3] n.t.main.controller.CaptchaController    : select the img key: 1729327774185 and check the captcha: genb3
+16:49:48  INFO 20412 --- [http-nio-11699-exec-4] n.t.main.controller.CaptchaController    : try to get email captcha
+16:50:15  INFO 20412 --- [http-nio-11699-exec-5] n.t.main.controller.CaptchaController    : select the email key: 1729327788228 and check the captcha: e3wxd
+16:50:15  INFO 20412 --- [http-nio-11699-exec-6] n.t.main.controller.UserController       : a user tries to register a torosamy world profile: UserDTO(id=null, username=Torosamy, password=TGCyweiyang0818, qq=1364596766)
+16:50:15  INFO 20412 --- [http-nio-11699-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:50:16  INFO 20412 --- [http-nio-11699-exec-6] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30ef51ce
+16:50:16  INFO 20412 --- [http-nio-11699-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:50:16  INFO 20412 --- [http-nio-11699-exec-6] n.t.main.controller.UserController       : a user register a torosamy world profile successfully: User(id=1, username=Torosamy, password=TGCyweiyang0818, qq=1364596766)
+16:50:24  INFO 20412 --- [http-nio-11699-exec-7] n.t.main.controller.CaptchaController    : try to get captcha img
+16:50:33  INFO 20412 --- [http-nio-11699-exec-9] n.t.main.controller.CaptchaController    : select the img key: 1729327824992 and check the captcha: 7482e
+16:50:33  INFO 20412 --- [http-nio-11699-exec-2] n.t.main.controller.UserController       : a user tries to login torosamy world: UserDTO(id=null, username=yweiyang, password=TGCyweiyang0818, qq=null)
+16:50:33 ERROR 20412 --- [http-nio-11699-exec-2] n.t.main.handler.GlobalExceptionHandler  : Base Error Message: 用户不存在
+16:51:30  INFO 20412 --- [http-nio-11699-exec-10] n.t.main.controller.CaptchaController    : try to get captcha img
+16:51:35  INFO 20412 --- [http-nio-11699-exec-1] n.t.main.controller.CaptchaController    : select the img key: 1729327890253 and check the captcha: eycep
+16:51:36  INFO 20412 --- [http-nio-11699-exec-8] n.t.main.controller.UserController       : a user tries to login torosamy world: UserDTO(id=null, username=Torosamy, password=TGCyweiyang0818, qq=null)
+16:51:36  INFO 20412 --- [http-nio-11699-exec-8] n.t.main.controller.UserController       : a user logins torosamy world successfully: net.torosamy.main.domain.vo.UserVO@2b6812bc
+17:08:04  INFO 20412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+17:08:04  INFO 20412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

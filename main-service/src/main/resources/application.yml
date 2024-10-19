@@ -1,0 +1,61 @@
+server:
+  port: 11699
+  ssl:
+    enabled: false
+    key-store: classpath:keystore/server.torosamy.net.jks
+    key-store-type: JKS
+    #key-store-password: ilv7if88
+    key-store-password: ilv7if88
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: main-service
+  data:
+    redis:
+      host: ${redis.host}
+      port: ${redis.port}
+      password: ${redis.password}
+      database: ${redis.database}
+  datasource:
+    driver-class-name: ${datasource.driver-class-name}
+    url: jdbc:mysql://${datasource.host}:${datasource.port}/${datasource.database}
+    username: ${datasource.username}
+    password: ${datasource.password}
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: ${mail.username}
+    password: ${mail.password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  type-aliases-package: net.torosamy.main.domain.po
+
+logging:
+  level:
+    net.torosamy:
+      mapper: debug
+      service: info
+      controller: info
+  pattern:
+    dateformat: HH:mm:ss
+    console: "%d{HH:mm:ss} [%-5level] [%thread] %logger{15} : %msg%n"
+  file:
+    name: log.log
+
+
+

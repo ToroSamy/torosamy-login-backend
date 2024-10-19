@@ -1,0 +1,16 @@
+datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  host: localhost
+  port: 3306
+  database: torosamy_login
+  username: root
+  password: TGCyweiyang0818
+redis:
+  host: localhost
+  port: 6379
+  password: TGCyweiyang0818
+  database: 10
+mail:
+  host: smtp.qq.com
+  username: 3781050855@qq.com
+  password: mohqsgkypvlpcfha

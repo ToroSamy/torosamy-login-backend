@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .background {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 30%;
+            color: white;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        .important {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10%;
+            font-size: 1.5rem;
+            background-color: #114189;
+            width: 100%;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 31%;
+            font-size: 1rem;
+            background-color: #678dd4;
+            width: 100%;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 10%;
+            font-size: 1.5rem;
+            background-color: #114189;
+            width: 100%;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 10%;
+            font-size: 0.9rem;
+            background-color: #678dd4;
+            width: 100%;
+        }
+    </style>
+    <title>邮箱验证码</title>
+</head>
+
+<body>
+<div class="background">
+    <div class="header"><strong>邮箱验证</strong></div>
+    <div class="content">
+        <div>您的邮箱验证码如下: </div>
+        <br>
+        <div><strong th:text="${code}"></strong></div>
+        <br>
+        <div>该邮箱验证码将于5分钟之内失效</div>
+        <div>切勿将验证码泄露给不信任的人</div>
+        <div>否则将对您的账户安全构成威胁</div>
+        <br>
+        <br>
+        <div>龙猫云创互联网工作室 欢迎您的加入</div>
+    </div>
+    <div class="important"><strong>龙猫QQ：1364596766</strong></div>
+    <div class="footer">
+        <div>请勿回复此邮件</div>
+        <div>龙猫云创 ©2024 Created by Torosamy</div>
+    </div>
+</div>
+</body>
+
+</html>
